@@ -14,7 +14,7 @@ from PIL import Image
 from torchvision import transforms as T
 from tqdm import tqdm
 
-from .model import build_model, MaskCLIP, MaskCLIPplus
+from .model import build_model, MaskCLIP
 from .simple_tokenizer import SimpleTokenizer as _Tokenizer
 from .utils import available_datasets, get_classes
 
